@@ -6,7 +6,7 @@ These contracts define the backend shape for Dockie's remote-first fake-web sear
 
 The backend must treat the fake sites as deployed remote websites.
 
-- It may read [sources.json](/c:/Users/dikac/codes/dockie/fake-websites/sources.json) locally as a registry of remote endpoints.
+- It may read [sources.json](sources.json) locally as a registry of remote endpoints.
 - It must fetch article indexes from each site's `search_index_url`.
 - It must not use local site source files as the runtime search corpus.
 

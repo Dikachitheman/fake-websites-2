@@ -8,7 +8,7 @@ This folder hosts the simulated web ecosystem for Dockie's upcoming `web_search`
 - Each website should live in its **own standalone React app** inside `fake-websites/<site-id>`.
 - Each app is intended for **independent Vercel deployment**.
 - Each app exposes a machine-readable `public/search-index.json` endpoint.
-- The backend should use [sources.json](/c:/Users/dikac/codes/dockie/fake-websites/sources.json) as the source registry for discovery and routing.
+- The backend should use [sources.json](sources.json) as the source registry for discovery and routing.
 
 ## Site Inventory
 
